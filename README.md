@@ -3,7 +3,7 @@
 The dataset is a cleaned version of the original set which was collected during an anonymous survey conducted between January and June 2023. That dataset can be used for predictive modeling in mental health research, particularly in identifying key contributors to mental health challenges in a non-clinical setting.
 
 
-The target dataset provides a more analysis-ready version for data scientists. It had gone through data cleaning (i.e. missing data, duplication) and has reduced number of features (columns), narrowing it down to the more important facets of depression in studnts. In particular, it contains 502 entres with 9 different features involving around the target variable, Depression.
+The target dataset provides a more analysis-ready version for data scientists. It had gone through data cleaning (i.e. missing data, duplication) and has reduced number of features (columns), narrowing it down to the more important facets of depression in students. In particular, it contains 502 entres with 9 different features revolving around the target variable, Depression.
 
 Unlike others, the target variable, Depression, is only a diagnosis given presumably by the original dataset's author, Dr. Samay Pathak, based the other variables collected from the survey. No additional information is found about how conclusions are made.
 
@@ -17,7 +17,7 @@ The dataset is a perfect material for applying Machine Learning model to predict
 
 The analysis and data modelling of this dataset should provides significant insights onto how everyday factor affects the mental well-being of students and support early diagnosis and prevention against depression and its impacts on students.
 
-It is worth noting that because the target variable was not collected and is only (presumably) diagnosis by a doctor, model accuracy should not be interpreted as how well it predicts depression in student but as how well it matches diagnoses of a professional.
+It is worth noting that because the target variable was not collected like other variables and is only (presumably) diagnosis by a doctor based the other known factors, model accuracy should not be interpreted as how well it predicts depression in student but as how well it matches diagnoses of a professional.
 
 ## Result
 After some additional cleaning and pre-processing, the datatset was used to train a logistic regression model with Depression as the target variables. Not all features of the set were used and selection was conducted based on correlation strength between each feature and Depression.
